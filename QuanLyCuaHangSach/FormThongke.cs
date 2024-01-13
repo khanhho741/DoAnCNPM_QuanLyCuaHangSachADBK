@@ -33,30 +33,25 @@ namespace QuanLyCuaHangSach
         {
             using (ModelDB model = new ModelDB())
             {
-                // Lấy doanh thu từ tất cả hóa đơn
                 decimal doanhThu = model.HoaDons.Sum(hd => hd.SoTienThanhToan);
                 labelDoanhthu.Text = doanhThu.ToString("N2", CultureInfo.InvariantCulture);
 
-                // Tính phần trăm doanh thu so với tổng
                 DateTime thangTruoc = DateTime.Now.AddMonths(-1);
 
-                // Tính toán doanh thu hiện tại
                 decimal doanhThuHienTai = model.HoaDons.Sum(hd => hd.SoTienThanhToan);
 
                 // Tính toán doanh thu của thời kỳ trước đó
                 decimal? doanhThuTruocDo = model.HoaDons
                 .Where(hd => hd.NgayLapHoaDon.Year == thangTruoc.Year && hd.NgayLapHoaDon.Month == thangTruoc.Month)
-                 .Sum(hd => (decimal?)hd.SoTienThanhToan); // Sử dụng decimal? để chấp nhận giá trị null
+                 .Sum(hd => (decimal?)hd.SoTienThanhToan);
 
                 if (doanhThuTruocDo.HasValue)
                 {
-                    // Tính tăng trưởng so với thời kỳ trước đó nếu giá trị không null
                     decimal tiLeTangTruong = ((doanhThuHienTai - doanhThuTruocDo.Value) / doanhThuTruocDo.Value) * 100;
                     labelDoanhthuphantram.Text = $"+{tiLeTangTruong:N2}%";
                 }
                 else
                 {
-                    // Xử lý trường hợp giá trị null
                     labelDoanhthuphantram.Text = "+0.00%";
                 }
 
@@ -83,21 +78,21 @@ namespace QuanLyCuaHangSach
                 labelKhachhang.Text = tongKhachHang.ToString();
 
 
-                labelDoanhthu.Text = $"{doanhThu:N2} $"; // Hiển thị giá trị doanh thu với ký hiệu tiền tệ
+                labelDoanhthu.Text = $"{doanhThu:N2} $"; 
 
-                labelSachban.Text = $"{sachDaBan} cuốn"; // Hiển thị số lượng sách đã bán với từ "cuốn"
-                labelSachNhap.Text = $"{sachNhap} cuốn"; // Hiển thị số lượng sách đã nhập với từ "cuốn"
-                labelTonkho.Text = $"{tonKho} cuốn"; // Hiển thị số lượng tồn kho với từ "cuốn"
+                labelSachban.Text = $"{sachDaBan} cuốn"; 
+                labelSachNhap.Text = $"{sachNhap} cuốn";
+                labelTonkho.Text = $"{tonKho} cuốn"; 
 
                 
             }
-            // Thêm các năm từ 2010 đến 2024 vào cmbNam
+            // Thêm các năm từ 2010 đến 2024
             for (int i = 2021; i <= 2024; i++)
             {
                 cmbNam.Items.Add(i);
             }
 
-            // Thêm các tháng từ 1 đến 12 vào cmbThang
+            // Thêm các tháng từ 1 đến 12
             for (int i = 1; i <= 12; i++)
             {
                 cmbThang.Items.Add(i);
@@ -182,9 +177,8 @@ namespace QuanLyCuaHangSach
 
         private void btnReset_Click(object sender, EventArgs e)
         {
-            // Xóa lựa chọn của combobox
-            cmbNam.SelectedIndex = -1; // Xóa lựa chọn trong cmbNam
-            cmbThang.SelectedIndex = -1; // Xóa lựa chọn trong cmbThang
+            cmbNam.SelectedIndex = -1; 
+            cmbThang.SelectedIndex = -1; 
 
             // Xóa dữ liệu của biểu đồ
             cartesianChartNam.Series.Clear();
@@ -196,11 +190,9 @@ namespace QuanLyCuaHangSach
 
         private void btnReload_Click(object sender, EventArgs e)
         {
-            // Xóa lựa chọn của combobox
-            cmbNam.SelectedIndex = -1; // Xóa lựa chọn trong cmbNam
-            cmbThang.SelectedIndex = -1; // Xóa lựa chọn trong cmbThang
+            cmbNam.SelectedIndex = -1; 
+            cmbThang.SelectedIndex = -1; 
 
-            // Xóa dữ liệu của biểu đồ
             cartesianChartNam.Series.Clear();
             cartesianChartNam.AxisX.Clear();
             cartesianChartNam.AxisY.Clear();

@@ -35,9 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtMatkhau = new System.Windows.Forms.TextBox();
-            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnMahoa = new System.Windows.Forms.Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGiaima = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -111,19 +110,19 @@
             this.txtMatkhau.TabIndex = 8;
             this.txtMatkhau.UseSystemPasswordChar = true;
             // 
-            // btnLuu
+            // btnMahoa
             // 
-            this.btnLuu.BackColor = System.Drawing.Color.Navy;
-            this.btnLuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLuu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuu.ForeColor = System.Drawing.Color.White;
-            this.btnLuu.Location = new System.Drawing.Point(91, 362);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(176, 52);
-            this.btnLuu.TabIndex = 52;
-            this.btnLuu.Text = "Mã hóa";
-            this.btnLuu.UseVisualStyleBackColor = false;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            this.btnMahoa.BackColor = System.Drawing.Color.Navy;
+            this.btnMahoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMahoa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMahoa.ForeColor = System.Drawing.Color.White;
+            this.btnMahoa.Location = new System.Drawing.Point(91, 362);
+            this.btnMahoa.Name = "btnMahoa";
+            this.btnMahoa.Size = new System.Drawing.Size(176, 52);
+            this.btnMahoa.TabIndex = 52;
+            this.btnMahoa.Text = "Mã hóa";
+            this.btnMahoa.UseVisualStyleBackColor = false;
+            this.btnMahoa.Click += new System.EventHandler(this.btnMahoa_Click);
             // 
             // guna2Button1
             // 
@@ -142,28 +141,13 @@
             this.guna2Button1.TabIndex = 53;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // btnGiaima
-            // 
-            this.btnGiaima.BackColor = System.Drawing.Color.Navy;
-            this.btnGiaima.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGiaima.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaima.ForeColor = System.Drawing.Color.White;
-            this.btnGiaima.Location = new System.Drawing.Point(357, 362);
-            this.btnGiaima.Name = "btnGiaima";
-            this.btnGiaima.Size = new System.Drawing.Size(176, 52);
-            this.btnGiaima.TabIndex = 54;
-            this.btnGiaima.Text = "Giải mã";
-            this.btnGiaima.UseVisualStyleBackColor = false;
-            this.btnGiaima.Click += new System.EventHandler(this.btnGiaima_Click);
-            // 
             // FormBaoMatTK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 463);
-            this.Controls.Add(this.btnGiaima);
             this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.btnLuu);
+            this.Controls.Add(this.btnMahoa);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
@@ -173,6 +157,7 @@
             this.Name = "FormBaoMatTK";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormBaoMatTK";
+            this.Load += new System.EventHandler(this.FormBaoMatTK_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -191,8 +176,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtMatkhau;
-        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnMahoa;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private System.Windows.Forms.Button btnGiaima;
     }
 }

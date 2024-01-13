@@ -102,7 +102,7 @@ namespace QuanLyCuaHangSach
 
         private void btnLoad_Click(object sender, EventArgs e)
         {
-
+            FormChiTietNhapHang_Load(sender,e);
         }
 
         private void btnThem_Click(object sender, EventArgs e)

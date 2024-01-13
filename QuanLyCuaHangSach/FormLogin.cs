@@ -1,4 +1,5 @@
 ﻿using DevExpress.Utils.Win.Hook;
+using NUnit.Framework;
 using QuanLyCuaHangSach.Model1;
 using QuanLyCuaHangSach.Resources;
 using System;
@@ -7,6 +8,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,6 +16,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace QuanLyCuaHangSach
 {
+    [TestFixture]
     public partial class FormLogin : Form
     {
         public FormLogin()
@@ -24,11 +27,12 @@ namespace QuanLyCuaHangSach
         }
         private FormHome formHome;
 
-     
+        [TestCase]
         private void btnLogin_Click(object sender, EventArgs e)
         {
             LuuData();
-            if (txtTenTK.Text != "" && txtMatKhau.Text != "")
+            string password = Taikhoanmahoa.CalculateMD5Hash(txtMatKhau.Text.Trim());
+            if (txtTenTK.Text != "" ||  txtMatKhau.Text != "")
             {
                 ModelDB model = new ModelDB();
                 var find = model.TaiKhoans.FirstOrDefault(p => p.TaiKhoan1.Trim() == txtTenTK.Text.Trim());
@@ -37,7 +41,21 @@ namespace QuanLyCuaHangSach
                 {
                     if (find.VoHieuHoa == false)
                     {
-                        if (find.MatKhau.Trim() == txtMatKhau.Text)
+                        if (find.MatKhau.Trim() == password)
+                        {
+                            MessageBox.Show("Đăng nhập thành công");
+
+
+                            if (formHome == null)
+                            {
+                                formHome = new FormHome(txtTenTK.Text);
+                            }
+                            // Hiển thị form Home và chuyển thông tin người dùng
+                            formHome.UpdateLabelName(find.TaiKhoan1, find.TaiKhoan1, find.Email);
+                            formHome.Show();
+                            this.Hide();
+                            formHome.SetUserInfo(find.HovaTen, txtTenTK.Text, txtMatKhau.Text, find.Email);
+                        } else if(find.MatKhau.Trim() == txtMatKhau.Text)
                         {
                             MessageBox.Show("Đăng nhập thành công");
 
@@ -82,7 +100,7 @@ namespace QuanLyCuaHangSach
             f.ShowDialog();
             this.Close();
         }
-
+        [TestCase]
         private void checkHienThiMK_CheckedChanged(object sender, EventArgs e)
         {
             if (checkHienThiMK.Checked)
@@ -94,7 +112,7 @@ namespace QuanLyCuaHangSach
                 txtMatKhau.UseSystemPasswordChar = true;
             }
         }
-      
+        [TestCase]
         private void NhapData()
         {
             if (Properties.Settings.Default.UserName != string.Empty)
@@ -113,7 +131,7 @@ namespace QuanLyCuaHangSach
         
             }
         }
-
+        [TestCase]
         private void LuuData()
         {
            if(checkGhiNhoTk.Checked)
@@ -132,7 +150,7 @@ namespace QuanLyCuaHangSach
             }
         }
 
-
+     
 
         private void FormLogin_Load(object sender, EventArgs e)
         {

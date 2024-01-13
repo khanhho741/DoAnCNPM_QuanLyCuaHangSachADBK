@@ -199,7 +199,7 @@ namespace QuanLyCuaHangSach
             }
             if (showPanelSanpham)
             {
-                panelSanPham.Height = 126;
+                panelSanPham.Height = 84;
             }
             else
             {
@@ -490,7 +490,51 @@ namespace QuanLyCuaHangSach
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
+            // Lấy chuỗi tìm kiếm từ TextBox
+            string tuKhoa = guna2TextBox1.Text.Trim().ToLower();
 
+          
+            bool timThay = "khách hàng".Contains(tuKhoa); 
+            bool timThay1 = "sách".Contains(tuKhoa);
+            bool timThay2 = "hóa đơn".Contains(tuKhoa); 
+            bool timThay3 = "kho".Contains(tuKhoa); 
+            bool timThay4 = "nhập hàng".Contains(tuKhoa); 
+            bool timThay5 = "hỗ trợ".Contains(tuKhoa);
+            bool timThay6 = "bán".Contains(tuKhoa);
+            bool timThay7 = "tổng quan".Contains(tuKhoa); 
+
+            if (timThay)
+            {
+                OpenFormChild(new FormKhachhang());
+            }
+            if (timThay1)
+            {
+                OpenFormChild(new FormSach());
+            }
+            if (timThay2)
+            {
+                OpenFormChild(new FormHoadon());
+            }
+            if (timThay3)
+            {
+                OpenFormChild(new FormKho());
+            }
+            if (timThay4)
+            {
+                OpenFormChild(new FormNhapHang());
+            }
+            if (timThay5)
+            {
+                OpenFormChild(new FormHotro());
+            }
+            if (timThay6)
+            {
+                OpenFormChild(new FormBanSach());
+            }
+            if (timThay7)
+            {
+                OpenFormChild(new FormTrangchu());
+            }
         }
     }
 }

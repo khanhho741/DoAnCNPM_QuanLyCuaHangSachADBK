@@ -120,3 +120,8 @@ C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\Q
 C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.FormBaoMatTK.resources
 C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.FormHotro.resources
 C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.FormKhuyenMai.resources
+C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\nunit.framework.dll
+C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\nunit.framework.legacy.dll
+C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\nunit.framework.xml
+C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\nunit.framework.legacy.xml

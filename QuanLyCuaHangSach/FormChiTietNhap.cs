@@ -40,6 +40,7 @@ namespace QuanLyCuaHangSach
 
         private void btnXuatFile_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Chức năng đang bảo trì");
 
         }
 

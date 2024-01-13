@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi26125311184412.png"/>
+					<Prp name="object bottom" type="I" value="528"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="435"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="646"/>
+					<Prp name="click point y" type="I" value="519"/>
+					<Prp name="object top" type="I" value="512"/>
+					<Prp name="datetime" type="D" value="45303.7512962963"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object bottom" type="I" value="528"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="435"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="646"/>
+					<Prp name="click point y" type="I" value="519"/>
+					<Prp name="object top" type="I" value="512"/>
+					<Prp name="datetime" type="D" value="45303.7515390741"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0432065857"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (40, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panelBody&quot;)[&quot;WinFormsObject&quot;](&quot;FormSach&quot;)[&quot;WinFormsObject&quot;](&quot;guna2GroupBox1&quot;)[&quot;WinFormsObject&quot;](&quot;txtGia&quot;)[&quot;WinFormsObject&quot;](&quot;Owner&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;panelSanPham&quot;][&quot;btnQLsach&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi2608046118446.png"/>
+					<Prp name="object bottom" type="I" value="313"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="160"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="click point y" type="I" value="296"/>
+					<Prp name="object top" type="I" value="273"/>
+					<Prp name="datetime" type="D" value="45303.75125"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;panelSanPham&quot;][&quot;btnQLsach&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object bottom" type="I" value="313"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="160"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="click point y" type="I" value="296"/>
+					<Prp name="object top" type="I" value="273"/>
+					<Prp name="datetime" type="D" value="45303.7515256134"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0431934954"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (160, 23) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;panelSanPham&quot;][&quot;btnQLsach&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panel1&quot;)[&quot;WinFormsObject&quot;](&quot;panelSanPham&quot;)[&quot;WinFormsObject&quot;](&quot;btnQLsach&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi26146871184414.png"/>
+					<Prp name="object bottom" type="I" value="528"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="-147"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="646"/>
+					<Prp name="click point y" type="I" value="-57"/>
+					<Prp name="object top" type="I" value="512"/>
+					<Prp name="datetime" type="D" value="45303.7513310185"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object bottom" type="I" value="528"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="646"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="512"/>
+					<Prp name="datetime" type="D" value="45303.7515421875"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0432095139"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '12000' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panelBody&quot;)[&quot;WinFormsObject&quot;](&quot;FormSach&quot;)[&quot;WinFormsObject&quot;](&quot;guna2GroupBox1&quot;)[&quot;WinFormsObject&quot;](&quot;txtGia&quot;)[&quot;WinFormsObject&quot;](&quot;Owner&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi26169681184418.png"/>
+					<Prp name="object bottom" type="I" value="122"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="151"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="178"/>
+					<Prp name="click point y" type="I" value="107"/>
+					<Prp name="object top" type="I" value="99"/>
+					<Prp name="datetime" type="D" value="45303.7513541667"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="103"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object bottom" type="I" value="122"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="click point x" type="I" value="140"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="178"/>
+					<Prp name="click point y" type="I" value="110"/>
+					<Prp name="object top" type="I" value="99"/>
+					<Prp name="datetime" type="D" value="45303.7515608681"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0432280671"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;Window&quot;](&quot;#32770&quot;, &quot;Thông báo&quot;, 1)[&quot;Window&quot;](&quot;Button&quot;, &quot;OK&quot;, 1))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{85C55F36-6139-42F6-AD10-50D3E3B8A1C6}"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;dgvSach&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="679"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi2610250118449.png"/>
+					<Prp name="object bottom" type="I" value="907"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="821"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1616"/>
+					<Prp name="click point y" type="I" value="521"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="datetime" type="D" value="45303.7512731481"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;dgvSach&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="679"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object bottom" type="I" value="907"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="821"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="1616"/>
+					<Prp name="click point y" type="I" value="521"/>
+					<Prp name="object top" type="I" value="348"/>
+					<Prp name="datetime" type="D" value="45303.7515366782"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0432043403"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (142, 173) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;dgvSach&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panelBody&quot;)[&quot;WinFormsObject&quot;](&quot;FormSach&quot;)[&quot;WinFormsObject&quot;](&quot;dgvSach&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi26138591184413.png"/>
+					<Prp name="object bottom" type="I" value="528"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="402"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="646"/>
+					<Prp name="click point y" type="I" value="520"/>
+					<Prp name="object top" type="I" value="512"/>
+					<Prp name="datetime" type="D" value="45303.7513194444"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="395"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object bottom" type="I" value="528"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="402"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="646"/>
+					<Prp name="click point y" type="I" value="520"/>
+					<Prp name="object top" type="I" value="512"/>
+					<Prp name="datetime" type="D" value="45303.751540544"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0432080787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (7, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panelBody&quot;)[&quot;WinFormsObject&quot;](&quot;FormSach&quot;)[&quot;WinFormsObject&quot;](&quot;guna2GroupBox1&quot;)[&quot;WinFormsObject&quot;](&quot;txtGia&quot;)[&quot;WinFormsObject&quot;](&quot;Owner&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonSanpham&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi2607484118443.png"/>
+					<Prp name="object bottom" type="I" value="400"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="128"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="click point y" type="I" value="393"/>
+					<Prp name="object top" type="I" value="360"/>
+					<Prp name="datetime" type="D" value="45303.7512384259"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonSanpham&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object bottom" type="I" value="400"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="128"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="click point y" type="I" value="393"/>
+					<Prp name="object top" type="I" value="360"/>
+					<Prp name="datetime" type="D" value="45303.7515232292"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0431912153"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (128, 33) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonSanpham&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panel1&quot;)[&quot;WinFormsObject&quot;](&quot;buttonSanpham&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnSua&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="946"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi26156401184417.png"/>
+					<Prp name="object bottom" type="I" value="330"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point x" type="I" value="959"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="969"/>
+					<Prp name="click point y" type="I" value="319"/>
+					<Prp name="object top" type="I" value="318"/>
+					<Prp name="datetime" type="D" value="45303.7513425926"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnSua&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="946"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object bottom" type="I" value="330"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point x" type="I" value="957"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="968"/>
+					<Prp name="click point y" type="I" value="324"/>
+					<Prp name="object top" type="I" value="319"/>
+					<Prp name="datetime" type="D" value="45303.7515586343"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0432267708"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The text area was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click with no key pressed within the area containing the following text:&#xA;Sửa"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonHethong&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi2604437118440.png"/>
+					<Prp name="object bottom" type="I" value="233"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="174"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="click point y" type="I" value="232"/>
+					<Prp name="object top" type="I" value="193"/>
+					<Prp name="datetime" type="D" value="45303.7512037037"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonHethong&quot;]"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object bottom" type="I" value="233"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="174"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="click point y" type="I" value="232"/>
+					<Prp name="object top" type="I" value="193"/>
+					<Prp name="datetime" type="D" value="45303.7515200694"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45304.0431887616"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (174, 39) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonHethong&quot;]&#xA;(Sys[&quot;Process&quot;](&quot;QuanLyCuaHangSach&quot;)[&quot;WinFormsObject&quot;](&quot;FormHome&quot;)[&quot;WinFormsObject&quot;](&quot;panel1&quot;)[&quot;WinFormsObject&quot;](&quot;buttonHethong&quot;))"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

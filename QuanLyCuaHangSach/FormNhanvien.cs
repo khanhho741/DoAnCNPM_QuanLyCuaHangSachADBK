@@ -132,7 +132,7 @@ namespace QuanLyCuaHangSach
 
                     NhanVien nhanvien = new NhanVien();
                     nhanvien.MaNhanVien = int.Parse(txtMaNV.Text);
-                    nhanvien.TaiKhoan = txtTaikhoan.Text;
+                    //nhanvien.TaiKhoan = txtTaikhoan.Text;
                     var find = context.LoaiNhanViens.FirstOrDefault(t => t.TenLoaiNhanVien.Trim() == cmbLoaiNV.Text.Trim());
                     nhanvien.LoaiNhanVien = cmbLoaiNV.Text;
                     nhanvien.TenNhanVien = txtTenNV.Text.Trim();
@@ -165,7 +165,7 @@ namespace QuanLyCuaHangSach
                     NhanVien nhanvienUpt = context.NhanViens.FirstOrDefault(s => s.MaNhanVien == MaNV);
                     if (nhanvienUpt != null)
                     {
-                        nhanvienUpt.TaiKhoan = txtTaikhoan.Text;
+                        //nhanvienUpt.TaiKhoan = txtTaikhoan.Text;
                         var find = context.LoaiNhanViens.FirstOrDefault(t => t.TenLoaiNhanVien.Trim() == cmbLoaiNV.Text.Trim());
                         nhanvienUpt.LoaiNhanVien = cmbLoaiNV.Text.Trim();
                         nhanvienUpt.TenNhanVien = txtTenNV.Text.Trim();

@@ -169,17 +169,23 @@ namespace QuanLyCuaHangSach
 
                         if (find != null)
                         {
-                            var nhanViensWithReference = model.NhanViens.Where(nv => nv.TaiKhoan.Trim() == find.TaiKhoan1.Trim()).ToList();
-                            foreach (var nv in nhanViensWithReference)
+                            // Check if the account is linked to any employee
+                            var linkedEmployee = model.NhanViens.FirstOrDefault(nv => nv.TaiKhoan.Trim() == find.TaiKhoan1.Trim());
+
+                            if (linkedEmployee != null)
                             {
-                                nv.TaiKhoan = null;
+                                // If the account is linked to an employee, show a message and don't allow deletion
+                                MessageBox.Show("Tài khoản này đã được liên kết với nhân viên. Không thể xóa!");
                             }
+                            else
+                            {
+                                // If the account is not linked to any employee, proceed with deletion
+                                model.TaiKhoans.Remove(find);
+                                model.SaveChanges();
 
-                            model.TaiKhoans.Remove(find);
-                            model.SaveChanges();
-
-                            MessageBox.Show("Xóa tài khoản thành công!");
-                            FormQLTK_Load(sender, e); // Refresh the user interface after deletion
+                                MessageBox.Show("Xóa tài khoản thành công!");
+                                FormQLTK_Load(sender, e); // Refresh the user interface after deletion
+                            }
                         }
                         else
                         {

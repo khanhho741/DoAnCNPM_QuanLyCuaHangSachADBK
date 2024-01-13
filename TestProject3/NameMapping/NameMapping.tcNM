@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{1F626AFF-9DDC-470E-B7D1-D1F951999F20}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="QuanLyCuaHangSach" Key="{3D2C8FB8-6993-4BCA-B76E-714ED2C9674B}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="QuanLyCuaHangSach" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="FormHome" Key="{62F4DA36-1D71-4174-B131-F105C720BC65}">
+								<Image FileName="2027556952" Left="0" Top="0" Right="1628" Bottom="919" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value Value="FormHome" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel1" Key="{C752A1D0-D387-445C-A3F5-C11AF00B5899}">
+										<Image FileName="2027556952" Left="0" Top="0" Right="281" Bottom="919" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panel1" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonHethong" Key="{5AB93793-AA9E-4FD2-9A0B-E4A9249F2222}">
+												<Image FileName="2027556952" Left="0" Top="193" Right="281" Bottom="233" />
+												<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonHethong" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonSanpham" Key="{4D2497B6-FB2E-41DD-94CD-CD14BFE2F105}">
+												<Image FileName="629011264" Left="0" Top="360" Right="281" Bottom="400" />
+												<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="buttonSanpham" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panelSanPham" Key="{2B2D0220-A8AC-4830-9F1B-FE654FC73C46}">
+												<Image FileName="-766417992" Left="0" Top="273" Right="281" Bottom="357" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="panelSanPham" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnQLsach" Key="{7A2B7E3F-06A8-4D28-8BA9-0DCF35D82972}">
+														<Image FileName="-766417992" Left="0" Top="273" Right="281" Bottom="313" />
+														<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnQLsach" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelBody" Key="{E3F5ED48-42B2-4138-ABD9-D6AD3CFAAEBE}">
+										<Image FileName="768365097" Left="281" Top="25" Right="1628" Bottom="919" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value Value="panelBody" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FormSach" Key="{3FF81EE1-48F3-4160-9BD8-A3AE38918068}">
+												<Image FileName="768365097" Left="281" Top="25" Right="1628" Bottom="919" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value Value="FormSach" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="dgvSach" Key="{DE16CFE1-E86C-41D1-A4A6-F14B4F443C91}">
+														<Image FileName="768365097" Left="679" Top="348" Right="1616" Bottom="907" />
+														<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="dgvSach" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="guna2GroupBox1" Key="{30388352-1C3D-491D-96D7-CA605D5DE9C6}">
+														<Image FileName="854397325" Left="293" Top="348" Right="673" Bottom="907" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="guna2GroupBox1" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="txtGia" Key="{30D4C006-7CBF-4CBC-8DEB-A4333B8A44E7}">
+																<Image FileName="854397325" Left="386" Top="502" Right="655" Bottom="538" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="txtGia" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Owner" Key="{0545BBF7-1341-4BD2-BB7A-C0F09BEB9A82}">
+																		<Image FileName="854397325" Left="395" Top="512" Right="646" Bottom="528" />
+																		<TypeInfo Item0="{48202877-FFA0-4D33-979C-9E54079F32FE}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="Owner" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="txtMaSach" Key="{3180BF05-98C1-4CD4-A233-BB21010F39F3}">
+																<Image FileName="1865833410" Left="386" Top="405" Right="655" Bottom="441" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="txtMaSach" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Owner" Key="{3DA6F567-25ED-4256-B5BC-B7821B6D8DD0}">
+																		<Image FileName="1865833410" Left="395" Top="415" Right="646" Bottom="431" />
+																		<TypeInfo Item0="{48202877-FFA0-4D33-979C-9E54079F32FE}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="Owner" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="txtTenSach" Key="{961769F1-7FC2-4C16-802D-D5AC8E0E4B63}">
+																<Image FileName="2019305370" Left="386" Top="455" Right="655" Bottom="491" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="txtTenSach" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Owner" Key="{C3A0553F-46E4-4C9B-8601-FD6ED6CA9411}">
+																		<Image FileName="438065581" Left="395" Top="465" Right="646" Bottom="481" />
+																		<TypeInfo Item0="{48202877-FFA0-4D33-979C-9E54079F32FE}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="Owner" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="txtNDTT" Key="{086905A4-CE35-4E10-92B6-EB9E3CC344F8}">
+																<Image FileName="1674119798" Left="386" Top="671" Right="655" Bottom="734" />
+																<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+																<Properties>
+																	<Property Name="WinFormsControlName">
+																		<Value Value="txtNDTT" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Owner" Key="{63656FCB-0E36-4957-80D4-8417DAE8E061}">
+																		<Image FileName="-1591890504" Left="395" Top="694" Right="646" Bottom="710" />
+																		<TypeInfo Item0="{48202877-FFA0-4D33-979C-9E54079F32FE}" />
+																		<Properties>
+																			<Property Name="WinFormsControlName">
+																				<Value Value="Owner" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="btnSua" Key="{C1B0C772-4B66-4796-8DE5-1C6AB88CBD42}">
+														<Image FileName="-249860334" Left="919" Top="309" Right="1019" Bottom="342" />
+														<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnSua" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnThem" Key="{754D9318-DAFD-44CE-AEB8-4739CBF6BB5A}">
+														<Image FileName="-1229211386" Left="804" Top="309" Right="904" Bottom="342" />
+														<TypeInfo Item0="{69B99738-8CD2-4BFB-89D0-30CB2AFFB15B}" />
+														<Properties>
+															<Property Name="WinFormsControlName">
+																<Value Value="btnThem" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgTh_ngB_o" Key="{13EE88A4-6944-4389-BD55-31EC5AAB704B}">
+								<Image FileName="671104148" Left="0" Top="0" Right="201" Bottom="140" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Thông báo" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{9CDFD85B-2330-4CAD-917F-748FE49036CC}">
+										<Image FileName="671104148" Left="103" Top="99" Right="178" Bottom="122" />
+										<TypeInfo Item0="{67865FD6-9FB1-4F0C-9812-1B19C2D36B02}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="QuanLyCuaHangSach" Owner="{3D2C8FB8-6993-4BCA-B76E-714ED2C9674B}">
+			<Child Name="FormHome" Owner="{62F4DA36-1D71-4174-B131-F105C720BC65}">
+				<Child Name="panel1" Owner="{C752A1D0-D387-445C-A3F5-C11AF00B5899}">
+					<Child Name="buttonHethong" Owner="{5AB93793-AA9E-4FD2-9A0B-E4A9249F2222}" />
+					<Child Name="buttonSanpham" Owner="{4D2497B6-FB2E-41DD-94CD-CD14BFE2F105}" />
+					<Child Name="panelSanPham" Owner="{2B2D0220-A8AC-4830-9F1B-FE654FC73C46}">
+						<Child Name="btnQLsach" Owner="{7A2B7E3F-06A8-4D28-8BA9-0DCF35D82972}" />
+					</Child>
+				</Child>
+				<Child Name="panelBody" Owner="{E3F5ED48-42B2-4138-ABD9-D6AD3CFAAEBE}">
+					<Child Name="FormSach" Owner="{3FF81EE1-48F3-4160-9BD8-A3AE38918068}">
+						<Child Name="dgvSach" Owner="{DE16CFE1-E86C-41D1-A4A6-F14B4F443C91}" />
+						<Child Name="guna2GroupBox1" Owner="{30388352-1C3D-491D-96D7-CA605D5DE9C6}">
+							<Child Name="txtGia" Owner="{30D4C006-7CBF-4CBC-8DEB-A4333B8A44E7}">
+								<Child Name="Owner" Owner="{0545BBF7-1341-4BD2-BB7A-C0F09BEB9A82}" />
+							</Child>
+							<Child Name="txtMaSach" Owner="{3180BF05-98C1-4CD4-A233-BB21010F39F3}">
+								<Child Name="Owner" Owner="{3DA6F567-25ED-4256-B5BC-B7821B6D8DD0}" />
+							</Child>
+							<Child Name="txtTenSach" Owner="{961769F1-7FC2-4C16-802D-D5AC8E0E4B63}">
+								<Child Name="Owner" Owner="{C3A0553F-46E4-4C9B-8601-FD6ED6CA9411}" />
+							</Child>
+							<Child Name="txtNDTT" Owner="{086905A4-CE35-4E10-92B6-EB9E3CC344F8}">
+								<Child Name="Owner" Owner="{63656FCB-0E36-4957-80D4-8417DAE8E061}" />
+							</Child>
+						</Child>
+						<Child Name="btnSua" Owner="{C1B0C772-4B66-4796-8DE5-1C6AB88CBD42}" />
+						<Child Name="btnThem" Owner="{754D9318-DAFD-44CE-AEB8-4739CBF6BB5A}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="dlgTh_ngB_o" Owner="{13EE88A4-6944-4389-BD55-31EC5AAB704B}">
+				<Child Name="btnOK" Owner="{9CDFD85B-2330-4CAD-917F-748FE49036CC}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

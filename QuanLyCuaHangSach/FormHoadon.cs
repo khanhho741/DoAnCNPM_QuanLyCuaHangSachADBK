@@ -168,5 +168,10 @@ namespace QuanLyCuaHangSach
                 MessageBox.Show("Vui lòng chọn hóa đơn cần xóa!");
             }
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            FormHoadon_Load(sender, e);
+        }
     }
 }

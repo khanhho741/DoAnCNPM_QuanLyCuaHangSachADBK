@@ -402,10 +402,21 @@ namespace QuanLyCuaHangSach
         {
             txtTimkiem_TextChanged(sender, e);
         }
+        private void ResetTextboxes()
+        {
+            txtMaSach.Text = "";
+            txtTenSach.Text = "";
+            txtGia.Text = "";
+            cmbTacGia.SelectedIndex = 0;
+            cmbNXB.SelectedIndex = 0;
+            cmbTheLoai.SelectedIndex = 0;
+            txtNDTT.Text = "";
+            picSach.Image = null;
+        }
 
         private void btnEye_Click(object sender, EventArgs e)
         {
-
+            ResetTextboxes();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -475,7 +486,7 @@ namespace QuanLyCuaHangSach
             {
                 MessageBox.Show(ex.Message);
             }
-
+            
         }
 
         private void txtGia_KeyPress(object sender, KeyPressEventArgs e)

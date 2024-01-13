@@ -52,7 +52,6 @@
             this.buttonKhachhang = new Guna.UI2.WinForms.Guna2Button();
             this.panelSanPham = new System.Windows.Forms.Panel();
             this.btnQLKho = new Guna.UI2.WinForms.Guna2Button();
-            this.btnQLnhapsach = new Guna.UI2.WinForms.Guna2Button();
             this.btnQLsach = new Guna.UI2.WinForms.Guna2Button();
             this.buttonSanpham = new Guna.UI2.WinForms.Guna2Button();
             this.panelHethong = new System.Windows.Forms.Panel();
@@ -465,7 +464,6 @@
             // 
             this.panelSanPham.BackColor = System.Drawing.Color.Transparent;
             this.panelSanPham.Controls.Add(this.btnQLKho);
-            this.panelSanPham.Controls.Add(this.btnQLnhapsach);
             this.panelSanPham.Controls.Add(this.btnQLsach);
             this.panelSanPham.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSanPham.Location = new System.Drawing.Point(0, 273);
@@ -486,34 +484,13 @@
             this.btnQLKho.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_warehouse_48;
             this.btnQLKho.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnQLKho.ImageOffset = new System.Drawing.Point(30, 0);
-            this.btnQLKho.Location = new System.Drawing.Point(0, 80);
+            this.btnQLKho.Location = new System.Drawing.Point(0, 40);
             this.btnQLKho.Name = "btnQLKho";
             this.btnQLKho.Size = new System.Drawing.Size(281, 40);
             this.btnQLKho.TabIndex = 17;
             this.btnQLKho.Text = "        Quản lý kho";
             this.btnQLKho.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnQLKho.Click += new System.EventHandler(this.btnQLKho_Click);
-            // 
-            // btnQLnhapsach
-            // 
-            this.btnQLnhapsach.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnQLnhapsach.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnQLnhapsach.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnQLnhapsach.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnQLnhapsach.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnQLnhapsach.FillColor = System.Drawing.Color.Navy;
-            this.btnQLnhapsach.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
-            this.btnQLnhapsach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnQLnhapsach.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_delivery_48;
-            this.btnQLnhapsach.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnQLnhapsach.ImageOffset = new System.Drawing.Point(30, 0);
-            this.btnQLnhapsach.Location = new System.Drawing.Point(0, 40);
-            this.btnQLnhapsach.Name = "btnQLnhapsach";
-            this.btnQLnhapsach.Size = new System.Drawing.Size(281, 40);
-            this.btnQLnhapsach.TabIndex = 15;
-            this.btnQLnhapsach.Text = "        Quản lý nhập sách";
-            this.btnQLnhapsach.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnQLnhapsach.Click += new System.EventHandler(this.btnQLnhapsach_Click);
             // 
             // btnQLsach
             // 
@@ -952,7 +929,6 @@
         private System.Windows.Forms.Panel panel7;
         private Guna.UI2.WinForms.Guna2Button btnHoadon;
         private Guna.UI2.WinForms.Guna2Button btnBansach;
-        private Guna.UI2.WinForms.Guna2Button btnQLnhapsach;
         private Guna.UI2.WinForms.Guna2Button btnQLsach;
         private Guna.UI2.WinForms.Guna2Button btnDangXuat;
         private System.Windows.Forms.Label labelEmail;

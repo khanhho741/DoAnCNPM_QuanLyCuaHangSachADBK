@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{7C283568-3A82-40CD-BDAA-C1626D42FE5F}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases[&quot;QuanLyCuaHangSach&quot;]" Data="61717A697000000001000000360400007801BD914D4B024118C7FF411FA08FD0B12F90272F76F05641511B24D10B09BDB89A118250414865A5951525451DB6172B3CB410BA84A0D145B0D8100C2AC94B084694E0C1DBB633B6B65AE921688667E6199EF93DFFE799696AD6D4820E8DBC36C856F76935A8973D797CC60B87C22AA1F2E45F24102353ED57A6BEEECF19BAB1D4C550767D73151B6DEDC57CEA1C46A3116A53B4165A5B70D66F8445ABA52CD9955839CFF33C0441A0F12DA603D37A3DC2EC302EFA7A703E68C0BDC58CAB81012C9A86606AD494D441B4D5FCE3DC2CC2133690DDD9C9C0C51D8077CE53FE4C3E1353DE85D4A1E62391088DC56536B5ECC2984E078F780B6FF812D72CFB8D2DE749DEE48A1BCFFB8778F7F97032C2C2C63058E8EDC5E5A889F2D5EA7F088570E759C35B3088D7631F92CE5924266D940F5BAD0859C7ABD64FEA783A3AC1C3DE2EC49929DC4CD921982D9453F75E5E3FE93F1A8DD27BC99D6DC44F7DD427BCA24BDEEBB7FF537851148B5AE974BAE84B52E1BDD5BCDD6E87C3E180DBED86D7EB05C771F0FBFD08040220F962B11812890452A91432990C72B95C893EE149BC129FCD66299FCFE77FE4FFA2AFEEE53FFD0F0C13FF0C" />
+					<Bitmap Name="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;]" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;]" Data="61717A697000000001000000360400007801CD925D48536118C70DBAB7D19990469A76D1282FEA625741D04D1048A0DE7491141274D127051383A20F226C057D6D1004E132953E6DB21B53C6100D8714C6DA09F3ACA2663306FB709ECDE339BFCE3953199C42D8550FFC1FDEF7F93FFFF779DEE77DF73539D75798E6D4FD761D1B96B1AEA24E5FE9B6CC173745EF69B1677C47B6520EBCADF6F9EEB65ACA35A3E6FFA0CFCDF4D277BC911F43E7F5AB68ABD7497D7A41C4778889BB8709DE6E632E1A4214C5557EA57F25F385BE6335BCBB6C233F3B62F29A22F3CDB793DEA376829D9B197209043A1A51165216BDA6E4085EDFC388AB92F4FBAB262FCF868978EA7973B28AAFFD079006DAF19FA926117E64D11B81E95727183C652339DC6AF239E93993EE2D8C5FAB26397A8E79C94FE8620DE293663455317356FA3736D9E90102A737F2F9B1531F81422E7A87F08D4D44BD0DC8330F29CC4D207AB711F13AC9FF9EB2E8D5429A709783D12B75C8F1617EBD6D27744920D6B31B25398E9289F1BDC7C10777AD5EEB99456F0412635D043B2A893EDDCBD84D07AFCF0AC4FD4D7A3B59B3E7F8CB5D4CB9AB48842EA02DC9E69F2DFD3F9AB280D8BD9FC95B0D0C76EE20E0AA2727156B19E76723F789DEB311EB3F882AFFB4E88D1CE3FD357551470175A9500C95F8C594849CF8086AFE1FFA92E43596A5F35F23F5AFB4A17FD02CA48D1994034F8B90F903282A33F0" />
+					<Bitmap Name="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;]" Data="61717A697000000001000000360400007801CD925D48536118C70DBAB7D19990469A76D1282FEA625741D04D1048A0DE7491141274D127051383A20F226C057D6D1004E132953E6DB21B53C6100D8714C6DA09F3ACA2663306FB709ECDE339BFCE3953199C42D8550FFC1FDEF7F93FFFF779DEE77DF73539D75798E6D4FD761D1B96B1AEA24E5FE9B6CC173745EF69B1677C47B6520EBCADF6F9EEB65ACA35A3E6FFA0CFCDF4D277BC911F43E7F5AB68ABD7497D7A41C4778889BB8709DE6E632E1A4214C5557EA57F25F385BE6335BCBB6C233F3B62F29A22F3CDB793DEA376829D9B197209043A1A51165216BDA6E4085EDFC388AB92F4FBAB262FCF868978EA7973B28AAFFD079006DAF19FA926117E64D11B81E95727183C652339DC6AF239E93993EE2D8C5FAB26397A8E79C94FE8620DE293663455317356FA3736D9E90102A737F2F9B1531F81422E7A87F08D4D44BD0DC8330F29CC4D207AB711F13AC9FF9EB2E8D5429A709783D12B75C8F1617EBD6D27744920D6B31B25398E9289F1BDC7C10777AD5EEB99456F0412635D043B2A893EDDCBD84D07AFCF0AC4FD4D7A3B59B3E7F8CB5D4CB9AB48842EA02DC9E69F2DFD3F9AB280D8BD9FC95B0D0C76EE20E0AA2727156B19E76723F789DEB311EB3F882AFFB4E88D1CE3FD357551470175A9500C95F8C594849CF8086AFE1FFA92E43596A5F35F23F5AFB4A17FD02CA48D1994034F8B90F903282A33F0" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="174" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonHethong&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="128" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="33" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;buttonSanpham&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="160" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="23" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panel1&quot;][&quot;panelSanPham&quot;][&quot;btnQLsach&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="142" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="173" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;dgvSach&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="40" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="8" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="12000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtGia&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sửa" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.QuanLyCuaHangSach.FormHome.panelBody.FormSach.btnSua;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="147" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="169" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;dgvSach&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="37" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="21" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnThem&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="117" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="34" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="29" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="8" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="MS022311251&#32;&#32;&#32;&#32;&#32;&#32;" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="116" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="11" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtTenSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="Bảy Viên Ngọc Rồng2" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtTenSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="95" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="41" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtNDTT&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="asdas" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtNDTT&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="55" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="9" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnThem&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="87" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="9" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="MS02231125&#32;&#32;&#32;&#32;&#32;&#32;" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="32" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="21" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnThem&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="148" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="MS022311298" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="71" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="2" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnThem&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="157" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="MS012345678" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="27" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnThem&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="83" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="MS01234567" />
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;guna2GroupBox1&quot;][&quot;txtMaSach&quot;][&quot;Owner&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="13" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="19" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;btnThem&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;dlgTh_ngB_o&quot;][&quot;btnOK&quot;];" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{90813F19-086D-4670-83BC-DB51386DC224}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="491" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="485" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90813F19-086D-4670-83BC-DB51386DC224}" Code="Aliases[&quot;QuanLyCuaHangSach&quot;][&quot;FormHome&quot;][&quot;panelBody&quot;][&quot;FormSach&quot;][&quot;dgvSach&quot;];" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{5BD8EA66-C49A-4A0F-A84E-36DC91A3CA94}" />
+</Root>

@@ -1,12 +1,6 @@
 ﻿using QuanLyCuaHangSach.Model1;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyCuaHangSach
@@ -37,7 +31,8 @@ namespace QuanLyCuaHangSach
                             var accountToUpdate = model.TaiKhoans.FirstOrDefault(p => p.TaiKhoan1.Trim() == taiKhoan);
                             if (accountToUpdate != null)
                             {
-                                accountToUpdate.MatKhau = matKhauMoi;
+                                // Hash the new password before saving
+                                accountToUpdate.MatKhau = Taikhoanmahoa.CalculateMD5Hash(matKhauMoi);
                                 model.SaveChanges();
                                 MessageBox.Show("Đổi mật khẩu thành công.");
                                 this.Close();
@@ -63,6 +58,7 @@ namespace QuanLyCuaHangSach
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin tên tài khoản, mật khẩu cũ, mật khẩu mới và xác thực mật khẩu.");
             }
         }
+
         private bool KiemTraMatKhauCu(string taiKhoan, string matKhauCu)
         {
             using (ModelDB model = new ModelDB())
@@ -71,7 +67,10 @@ namespace QuanLyCuaHangSach
 
                 if (existingAccount != null)
                 {
-                    if (string.Equals(existingAccount.MatKhau.Trim(), matKhauCu, StringComparison.OrdinalIgnoreCase))
+                    // Hash the provided old password for comparison
+                    string hashedMatKhauCu = Taikhoanmahoa.CalculateMD5Hash(matKhauCu);
+
+                    if (string.Equals(existingAccount.MatKhau.Trim(), hashedMatKhauCu, StringComparison.OrdinalIgnoreCase))
                     {
                         return true;
                     }
@@ -79,6 +78,7 @@ namespace QuanLyCuaHangSach
                 return false;
             }
         }
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             this.Close();

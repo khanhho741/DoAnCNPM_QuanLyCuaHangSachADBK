@@ -123,7 +123,7 @@ namespace QuanLyCuaHangSach
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            dgvKhoBook.Rows.Clear();
+            FormKho_Load(sender, e);
         }
     }
 }
