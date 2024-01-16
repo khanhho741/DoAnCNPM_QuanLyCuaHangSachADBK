@@ -563,9 +563,11 @@ namespace QuanLyCuaHangSach
             if (ktr == 0)
             {
                 int r = dgvBanSach.Rows.Add();
-                dgvBanSach.Rows[r].Cells[1].Value = cbbkho.Text.Trim();
+                dgvBanSach.Rows[r].Cells[2].Value = cbbkho.Text.Trim();
                 dgvBanSach.Rows[r].Cells[0].Value = txtsachthem.Text.Trim();
-                dgvBanSach.Rows[r].Cells[2].Value = txtsl.Text.Trim();
+                dgvBanSach.Rows[r].Cells[3].Value = txtsl.Text.Trim();
+                dgvBanSach.Rows[r].Cells[1].Value = cmbnv.Text.Trim();
+
             }
             ktrsave();
             resetform();

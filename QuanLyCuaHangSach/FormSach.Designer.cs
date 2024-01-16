@@ -705,7 +705,7 @@
             this.btnXoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnXoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnXoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnXoa.FillColor = System.Drawing.Color.Navy;
+            this.btnXoa.FillColor = System.Drawing.Color.Maroon;
             this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_delete_18;

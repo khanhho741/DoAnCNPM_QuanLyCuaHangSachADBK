@@ -124,6 +124,8 @@ namespace QuanLyCuaHangSach
                 dgvChiTiet.Rows[r].Cells[1].Value = DtpNgayPN.Value.ToString();
                 dgvChiTiet.Rows[r].Cells[2].Value = txtsl.Text.Trim();
                 dgvChiTiet.Rows[r].Cells[3].Value = txtgia.Text.Trim();
+
+
             }
             FormChiTietNhapHang_Load(sender, e);
 

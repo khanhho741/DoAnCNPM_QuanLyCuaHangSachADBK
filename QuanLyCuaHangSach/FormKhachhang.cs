@@ -1,9 +1,12 @@
-﻿using QuanLyCuaHangSach.Model1;
+﻿using OfficeOpenXml;
+using QuanLyCuaHangSach.Model1;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.Entity;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -85,6 +88,124 @@ namespace QuanLyCuaHangSach
         {
             FormTheDocGia formTheDG = new FormTheDocGia(this);
             formTheDG.ShowDialog();
+        }
+
+        private void btnXuatFile_Click(object sender, EventArgs e)
+        {
+            using (ExcelPackage excelPackage = new ExcelPackage())
+            {
+                ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add("ChiTietHoaDon");
+
+                // Header
+                for (int i = 1; i <= dgvKhachHang.Columns.Count; i++)
+                {
+                    worksheet.Cells[1, i].Value = dgvKhachHang.Columns[i - 1].HeaderText;
+                }
+
+                // Data
+                for (int i = 0; i < dgvKhachHang.Rows.Count; i++)
+                {
+                    for (int j = 0; j < dgvKhachHang.Columns.Count; j++)
+                    {
+                        worksheet.Cells[i + 2, j + 1].Value = dgvKhachHang.Rows[i].Cells[j].Value?.ToString();
+                    }
+                }
+
+                // Lưu file Excel
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    FileInfo excelFile = new FileInfo(saveFileDialog.FileName);
+                    excelPackage.SaveAs(excelFile);
+                    MessageBox.Show("File đã được xuất thành công!");
+                }
+            }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (dgvKhachHang.SelectedRows.Count > 0)
+            {
+                // Display a confirmation dialog
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa khách hàng này và các phụ thuộc?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    int maKhachHang = Convert.ToInt32(dgvKhachHang.SelectedRows[0].Cells[0].Value);
+
+                    KhachHang customerToDelete = context.KhachHangs
+                        .Include("TheDocGias.HoaDons.ChiTietHoaDons")
+                        .FirstOrDefault(c => c.MaKhachHang == maKhachHang);
+
+                    if (customerToDelete != null)
+                    {
+                        // Detach related entities
+                        foreach (var theDocGia in customerToDelete.TheDocGias.ToList())
+                        {
+                            context.Entry(theDocGia).State = EntityState.Detached;
+
+                            foreach (var hoaDon in theDocGia.HoaDons.ToList())
+                            {
+                                context.Entry(hoaDon).State = EntityState.Detached;
+
+                                foreach (var chiTietHoaDon in hoaDon.ChiTietHoaDons.ToList())
+                                {
+                                    context.Entry(chiTietHoaDon).State = EntityState.Detached;
+                                }
+                            }
+                        }
+
+                        // Remove related entities
+                        context.ChiTietHoaDons.RemoveRange(customerToDelete.TheDocGias.SelectMany(td => td.HoaDons.SelectMany(hd => hd.ChiTietHoaDons)));
+                        context.HoaDons.RemoveRange(customerToDelete.TheDocGias.SelectMany(td => td.HoaDons));
+                        context.TheDocGias.RemoveRange(customerToDelete.TheDocGias);
+
+                        // Remove the KhachHang
+                        context.KhachHangs.Remove(customerToDelete);
+
+                        context.SaveChanges();
+
+                        MessageBox.Show("Xóa khách hàng và các phụ thuộc thành công!");
+
+                        // Refresh DataGridView
+                        resetdata();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một khách hàng để xóa.");
+            }
+        }
+        private KhachHang selectedCustomer;
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            if (dgvKhachHang.SelectedRows.Count > 0)
+            {
+                int maKhachHang = Convert.ToInt32(dgvKhachHang.SelectedRows[0].Cells[0].Value);
+
+                // Retrieve the selected customer
+                selectedCustomer = context.KhachHangs
+                    .Include("TheDocGias.HoaDons.ChiTietHoaDons")
+                    .FirstOrDefault(c => c.MaKhachHang == maKhachHang);
+
+                if (selectedCustomer != null)
+                {
+                    // Create an instance of the edit form
+                    SuaNhanVien suaNhanVienForm = new SuaNhanVien(selectedCustomer, this, context);
+
+                    // Show the edit form
+                    suaNhanVienForm.ShowDialog();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một khách hàng để sửa.");
+            }
         }
     }
 }

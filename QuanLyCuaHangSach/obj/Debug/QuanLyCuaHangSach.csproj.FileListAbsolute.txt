@@ -125,3 +125,4 @@ C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\n
 C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\nunit.framework.xml
 C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\bin\Debug\nunit.framework.legacy.xml
+C:\Users\Dinh Phung\source\repos\QuanLyCuaHangSach\QuanLyCuaHangSach\obj\Debug\QuanLyCuaHangSach.SuaNhanVien.resources

@@ -331,6 +331,12 @@
     <Compile Include="FormQuenMatKhau.Designer.cs">
       <DependentUpon>FormQuenMatKhau.cs</DependentUpon>
     </Compile>
+    <Compile Include="Suakhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suakhachhang.Designer.cs">
+      <DependentUpon>Suakhachhang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Taikhoanmahoa.cs" />
     <EmbeddedResource Include="FormBanSach.resx">
       <DependentUpon>FormBanSach.cs</DependentUpon>
@@ -426,6 +432,9 @@
     </Compile>
     <EmbeddedResource Include="FormQuenMatKhau.resx">
       <DependentUpon>FormQuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suakhachhang.resx">
+      <DependentUpon>Suakhachhang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -825,6 +834,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-excel-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-excel-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -51,6 +51,9 @@
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTimKiem = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnTheDG = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSua = new Guna.UI2.WinForms.Guna2Button();
+            this.btnXuatFile = new Guna.UI2.WinForms.Guna2Button();
+            this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
             this.btnReLoad = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
@@ -104,13 +107,13 @@
             dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvKhachHang.DefaultCellStyle = dataGridViewCellStyle10;
             this.dgvKhachHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvKhachHang.Location = new System.Drawing.Point(3, 172);
+            this.dgvKhachHang.Location = new System.Drawing.Point(21, 172);
             this.dgvKhachHang.Name = "dgvKhachHang";
             this.dgvKhachHang.ReadOnly = true;
             this.dgvKhachHang.RowHeadersVisible = false;
             this.dgvKhachHang.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvKhachHang.RowTemplate.Height = 70;
-            this.dgvKhachHang.Size = new System.Drawing.Size(1342, 710);
+            this.dgvKhachHang.Size = new System.Drawing.Size(1295, 710);
             this.dgvKhachHang.TabIndex = 65;
             this.dgvKhachHang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvKhachHang.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -213,12 +216,12 @@
             this.txtTimKiem.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtTimKiem.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtTimKiem.Location = new System.Drawing.Point(296, 133);
+            this.txtTimKiem.Location = new System.Drawing.Point(21, 133);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.PasswordChar = '\0';
             this.txtTimKiem.PlaceholderText = "";
             this.txtTimKiem.SelectedText = "";
-            this.txtTimKiem.Size = new System.Drawing.Size(398, 33);
+            this.txtTimKiem.Size = new System.Drawing.Size(449, 33);
             this.txtTimKiem.TabIndex = 66;
             this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
@@ -229,18 +232,75 @@
             this.btnTheDG.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnTheDG.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnTheDG.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTheDG.FillColor = System.Drawing.Color.Green;
+            this.btnTheDG.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnTheDG.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTheDG.ForeColor = System.Drawing.Color.White;
             this.btnTheDG.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnTheDG.Location = new System.Drawing.Point(748, 133);
+            this.btnTheDG.Location = new System.Drawing.Point(1005, 133);
             this.btnTheDG.Name = "btnTheDG";
             this.btnTheDG.PressedColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnTheDG.Size = new System.Drawing.Size(225, 33);
+            this.btnTheDG.Size = new System.Drawing.Size(188, 33);
             this.btnTheDG.TabIndex = 68;
             this.btnTheDG.Text = "Thẻ đọc giả";
             this.btnTheDG.TextFormatNoPrefix = true;
             this.btnTheDG.Click += new System.EventHandler(this.btnquanlycapquyentk_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSua.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSua.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSua.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSua.FillColor = System.Drawing.Color.Navy;
+            this.btnSua.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnSua.ForeColor = System.Drawing.Color.White;
+            this.btnSua.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_update_24;
+            this.btnSua.ImageSize = new System.Drawing.Size(18, 18);
+            this.btnSua.Location = new System.Drawing.Point(905, 133);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(44, 33);
+            this.btnSua.TabIndex = 80;
+            this.btnSua.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnXuatFile
+            // 
+            this.btnXuatFile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnXuatFile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnXuatFile.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnXuatFile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnXuatFile.FillColor = System.Drawing.Color.Green;
+            this.btnXuatFile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnXuatFile.ForeColor = System.Drawing.Color.White;
+            this.btnXuatFile.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_excel_24;
+            this.btnXuatFile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnXuatFile.ImageOffset = new System.Drawing.Point(5, 0);
+            this.btnXuatFile.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnXuatFile.Location = new System.Drawing.Point(1199, 133);
+            this.btnXuatFile.Name = "btnXuatFile";
+            this.btnXuatFile.Size = new System.Drawing.Size(117, 33);
+            this.btnXuatFile.TabIndex = 79;
+            this.btnXuatFile.Text = "   Xuất Excel";
+            this.btnXuatFile.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnXuatFile.Click += new System.EventHandler(this.btnXuatFile_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnXoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnXoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnXoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnXoa.FillColor = System.Drawing.Color.Maroon;
+            this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnXoa.ForeColor = System.Drawing.Color.White;
+            this.btnXoa.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_delete_24__1_;
+            this.btnXoa.ImageSize = new System.Drawing.Size(18, 18);
+            this.btnXoa.Location = new System.Drawing.Point(955, 133);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(44, 33);
+            this.btnXoa.TabIndex = 78;
+            this.btnXoa.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnTimKiem
             // 
@@ -253,7 +313,7 @@
             this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnTimKiem.ForeColor = System.Drawing.Color.White;
             this.btnTimKiem.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_search_48__1_;
-            this.btnTimKiem.Location = new System.Drawing.Point(700, 133);
+            this.btnTimKiem.Location = new System.Drawing.Point(476, 133);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(41, 33);
             this.btnTimKiem.TabIndex = 67;
@@ -282,6 +342,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1347, 894);
+            this.Controls.Add(this.btnSua);
+            this.Controls.Add(this.btnXuatFile);
+            this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnTheDG);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.txtTimKiem);
@@ -315,5 +378,8 @@
         private Guna.UI2.WinForms.Guna2Button btnTimKiem;
         private Guna.UI2.WinForms.Guna2TextBox txtTimKiem;
         private Guna.UI2.WinForms.Guna2Button btnTheDG;
+        private Guna.UI2.WinForms.Guna2Button btnXoa;
+        private Guna.UI2.WinForms.Guna2Button btnXuatFile;
+        private Guna.UI2.WinForms.Guna2Button btnSua;
     }
 }

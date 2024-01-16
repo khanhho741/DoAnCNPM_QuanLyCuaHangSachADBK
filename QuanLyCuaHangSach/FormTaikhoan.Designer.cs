@@ -49,6 +49,7 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label10 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnBaoMat = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtTenTK = new System.Windows.Forms.TextBox();
@@ -60,15 +61,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.brnReload = new Guna.UI2.WinForms.Guna2Button();
             this.picAvatar = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -297,13 +297,26 @@
             this.label10.Text = resources.GetString("label10.Text");
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::QuanLyCuaHangSach.Properties.Resources.data_security_4897442_4077854;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(489, 31);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(276, 256);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
+            // 
             // btnBaoMat
             // 
             this.btnBaoMat.BackColor = System.Drawing.Color.Navy;
             this.btnBaoMat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBaoMat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBaoMat.ForeColor = System.Drawing.Color.White;
-            this.btnBaoMat.Location = new System.Drawing.Point(866, 369);
+            this.btnBaoMat.Location = new System.Drawing.Point(884, 369);
             this.btnBaoMat.Name = "btnBaoMat";
             this.btnBaoMat.Size = new System.Drawing.Size(199, 52);
             this.btnBaoMat.TabIndex = 35;
@@ -346,9 +359,9 @@
             this.btnDoiMK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDoiMK.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoiMK.ForeColor = System.Drawing.Color.White;
-            this.btnDoiMK.Location = new System.Drawing.Point(640, 369);
+            this.btnDoiMK.Location = new System.Drawing.Point(660, 369);
             this.btnDoiMK.Name = "btnDoiMK";
-            this.btnDoiMK.Size = new System.Drawing.Size(176, 52);
+            this.btnDoiMK.Size = new System.Drawing.Size(195, 52);
             this.btnDoiMK.TabIndex = 41;
             this.btnDoiMK.Text = "Đổi mật khẩu";
             this.btnDoiMK.UseVisualStyleBackColor = false;
@@ -360,7 +373,7 @@
             this.btnDangXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDangXuat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangXuat.ForeColor = System.Drawing.Color.White;
-            this.btnDangXuat.Location = new System.Drawing.Point(1110, 369);
+            this.btnDangXuat.Location = new System.Drawing.Point(1150, 369);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Size = new System.Drawing.Size(176, 52);
             this.btnDangXuat.TabIndex = 42;
@@ -429,19 +442,6 @@
             this.picAvatar.TabIndex = 34;
             this.picAvatar.TabStop = false;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::QuanLyCuaHangSach.Properties.Resources.data_security_4897442_4077854;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(489, 31);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(276, 256);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
-            // 
             // FormTaikhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -477,12 +477,12 @@
             this.guna2GroupBox1.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvatar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

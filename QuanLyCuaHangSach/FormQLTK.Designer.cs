@@ -38,6 +38,9 @@
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txthoten = new Guna.UI2.WinForms.Guna2TextBox();
+            this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSua = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThem = new Guna.UI2.WinForms.Guna2Button();
             this.checkkhongvohieu = new Guna.UI2.WinForms.Guna2RadioButton();
             this.checkvohieuhoa = new Guna.UI2.WinForms.Guna2RadioButton();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -56,9 +59,6 @@
             this.btnReLoad = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnThoat = new Guna.UI2.WinForms.Guna2Button();
-            this.btnXoa = new Guna.UI2.WinForms.Guna2Button();
-            this.btnSua = new Guna.UI2.WinForms.Guna2Button();
-            this.btnThem = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTK)).BeginInit();
             this.SuspendLayout();
@@ -116,6 +116,69 @@
             this.txthoten.SelectedText = "";
             this.txthoten.Size = new System.Drawing.Size(284, 43);
             this.txthoten.TabIndex = 68;
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnXoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnXoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnXoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnXoa.FillColor = System.Drawing.Color.Maroon;
+            this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnXoa.ForeColor = System.Drawing.Color.White;
+            this.btnXoa.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_delete_18;
+            this.btnXoa.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnXoa.ImageOffset = new System.Drawing.Point(14, 0);
+            this.btnXoa.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnXoa.Location = new System.Drawing.Point(258, 506);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(100, 33);
+            this.btnXoa.TabIndex = 67;
+            this.btnXoa.Text = "     Xóa";
+            this.btnXoa.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSua.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSua.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSua.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSua.FillColor = System.Drawing.Color.Navy;
+            this.btnSua.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnSua.ForeColor = System.Drawing.Color.White;
+            this.btnSua.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_update_18;
+            this.btnSua.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnSua.ImageOffset = new System.Drawing.Point(14, 0);
+            this.btnSua.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnSua.Location = new System.Drawing.Point(138, 506);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(100, 33);
+            this.btnSua.TabIndex = 66;
+            this.btnSua.Text = "     Sửa";
+            this.btnSua.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThem.FillColor = System.Drawing.Color.Navy;
+            this.btnThem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnThem.ForeColor = System.Drawing.Color.White;
+            this.btnThem.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_add_18;
+            this.btnThem.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnThem.ImageOffset = new System.Drawing.Point(10, 0);
+            this.btnThem.ImageSize = new System.Drawing.Size(15, 15);
+            this.btnThem.Location = new System.Drawing.Point(18, 506);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(100, 33);
+            this.btnThem.TabIndex = 65;
+            this.btnThem.Text = "    Thêm";
+            this.btnThem.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // checkkhongvohieu
             // 
@@ -419,69 +482,6 @@
             this.btnThoat.Size = new System.Drawing.Size(57, 45);
             this.btnThoat.TabIndex = 14;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnXoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnXoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnXoa.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnXoa.FillColor = System.Drawing.Color.Navy;
-            this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_delete_18;
-            this.btnXoa.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnXoa.ImageOffset = new System.Drawing.Point(14, 0);
-            this.btnXoa.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnXoa.Location = new System.Drawing.Point(258, 506);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(100, 33);
-            this.btnXoa.TabIndex = 67;
-            this.btnXoa.Text = "     Xóa";
-            this.btnXoa.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
-            // 
-            // btnSua
-            // 
-            this.btnSua.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSua.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSua.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSua.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSua.FillColor = System.Drawing.Color.Navy;
-            this.btnSua.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_update_18;
-            this.btnSua.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnSua.ImageOffset = new System.Drawing.Point(14, 0);
-            this.btnSua.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnSua.Location = new System.Drawing.Point(138, 506);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(100, 33);
-            this.btnSua.TabIndex = 66;
-            this.btnSua.Text = "     Sửa";
-            this.btnSua.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
-            // btnThem
-            // 
-            this.btnThem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnThem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnThem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnThem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThem.FillColor = System.Drawing.Color.Navy;
-            this.btnThem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnThem.ForeColor = System.Drawing.Color.White;
-            this.btnThem.Image = global::QuanLyCuaHangSach.Properties.Resources.icons8_add_18;
-            this.btnThem.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.btnThem.ImageOffset = new System.Drawing.Point(10, 0);
-            this.btnThem.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnThem.Location = new System.Drawing.Point(18, 506);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(100, 33);
-            this.btnThem.TabIndex = 65;
-            this.btnThem.Text = "    Thêm";
-            this.btnThem.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // FormQLTK
             // 

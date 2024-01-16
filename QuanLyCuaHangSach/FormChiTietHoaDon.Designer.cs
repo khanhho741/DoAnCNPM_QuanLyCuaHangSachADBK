@@ -185,7 +185,7 @@
             this.btnThoat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.btnThoat.ForeColor = System.Drawing.Color.White;
-            this.btnThoat.Location = new System.Drawing.Point(733, 147);
+            this.btnThoat.Location = new System.Drawing.Point(736, 147);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(113, 33);
             this.btnThoat.TabIndex = 76;
@@ -205,7 +205,7 @@
             this.btnXuatFile.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnXuatFile.ImageOffset = new System.Drawing.Point(8, 0);
             this.btnXuatFile.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnXuatFile.Location = new System.Drawing.Point(508, 147);
+            this.btnXuatFile.Location = new System.Drawing.Point(609, 147);
             this.btnXuatFile.Name = "btnXuatFile";
             this.btnXuatFile.Size = new System.Drawing.Size(121, 33);
             this.btnXuatFile.TabIndex = 75;
@@ -226,7 +226,7 @@
             this.btnIn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnIn.ImageOffset = new System.Drawing.Point(13, 0);
             this.btnIn.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnIn.Location = new System.Drawing.Point(635, 147);
+            this.btnIn.Location = new System.Drawing.Point(511, 147);
             this.btnIn.Name = "btnIn";
             this.btnIn.Size = new System.Drawing.Size(92, 33);
             this.btnIn.TabIndex = 74;
